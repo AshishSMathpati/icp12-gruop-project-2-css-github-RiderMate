@@ -1,0 +1,570 @@
+body {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: rgb(112, 255, 181);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    box-shadow: 0px 1px 5px 5px grey;
+}
+
+.navbar-button {
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+
+.navbar-button:hover {
+    color: rgb(0, 55, 255);
+    text-decoration: underline;
+    transform: scale(1.15);
+
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+
+}
+
+.brand-name {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+    color: #4d4dff;
+    cursor: pointer;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(108, 108, 108);
+    padding-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.heading:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 100px;
+    color: rgb(133, 130, 130);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-row {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 100px;
+    margin-right: 00px;
+    gap: 200px;
+}
+
+.menu-row2 {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    gap: 200px;
+}
+
+
+
+.royal-enfield {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+
+
+
+.yamaha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px 2px grey;
+
+}
+
+
+
+.brand-text {
+    display: flex;
+    align-items: center;
+}
+
+.ry-row {
+    width: 420px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-right: 125px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    gap: 300px;
+}
+
+.ry-detail {
+    width: 400px;
+    display: flex;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px 2px grey;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.ry-row2 {
+    width: 355px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-right: 125px;
+    margin-top: 450px;
+    margin-bottom: 100px;
+    gap: 300px;
+}
+
+.bike-name {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ry-row3 {
+    width: 355px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 250px;
+    margin-right: 125px;
+    margin-top: 450px;
+    margin-bottom: 100px;
+    gap: 300px;
+
+
+}
+
+.ry-navbar {
+    background-color: rgb(255, 174, 0);
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    box-shadow: 0px 1px 5px 5px grey;
+}
+
+.ry-name {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 10px;
+    color: #e95900;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ry-button {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    cursor: pointer;
+    font-weight: bold;
+    color: #e95900;
+}
+
+.ry-button:hover {
+
+    text-decoration: underline;
+    transform: scale(1.15);
+
+
+}
+
+.bike-pic img {
+    display: flex;
+    border-radius: 15px;
+    height: 200px;
+    width: 300px;
+}
+
+.hero-navbar {
+    height: 70px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    box-shadow: 0px 1px 5px 5px grey;
+    margin-bottom: 50px;
+}
+
+.hero-name {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 10px;
+    color: #eb1400;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-button {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+
+    text-decoration: underline;
+    transform: scale(1.15);
+
+
+}
+
+.hero-row {
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.hero-detail {
+    margin-top: 300px;
+    margin-left: 150px;
+    width: 300px;
+    display: flex;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 2px 2px grey;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.hero-image {
+    border-radius: 8px;
+}
+
+.hero-bike-details {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(81, 81, 81);
+    padding: 4px;
+}
+
+.hero-row2 {
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 320px;
+    margin-left: 200px;
+}
+
+.hero-row3 {
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+   margin-top: 300px;
+    margin-bottom: 350px;
+}
+
+    footer {
+    height: 30px;
+      background-color: #111;
+      color: white;
+      display: flex;
+      text-align: center;
+      padding-bottom: 10px;
+      margin-top: 5px;
+      align-items: center;
+      justify-content: center;
+      padding-top: 15px;
+    }
+
+    .honda-navbar {
+    height: 70px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    box-shadow: 0px 1px 5px 5px grey;
+    margin-bottom: 50px;
+}
+
+.honda-name {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.honda-button {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.honda-button:hover {
+
+    text-decoration: underline;
+    transform: scale(1.15);
+
+
+}
+
+.honda-row {
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 100px;
+    gap: 15px;
+   
+}
+
+.honda-detail {
+
+    width: 400px;
+    display: flex;
+    border: 2px solid rgb(255, 198, 198);
+    box-shadow: 1px 1px 2px 2px #ffa097;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.honda-image {
+    border-radius: 8px;
+}
+
+.honda-bike-details {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(81, 81, 81);
+    padding: 4px;
+}
+
+.honda-row2 {
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 310px;
+    margin-left: 100px;
+    gap: 15px;
+   
+}
+
+.honda-row3 {
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 310px;
+    margin-left: 300px;
+    gap: 15px;
+    margin-bottom: 300px;
+   
+}
+
+.bajaj-navbar {
+    height: 70px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    box-shadow: 0px 1px 5px 5px grey;
+    margin-bottom: 50px;
+}
+
+.bajaj-button {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bajaj-button:hover {
+
+    text-decoration: underline;
+    transform: scale(1.15);
+
+
+}
+
+.bajaj-name {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 10px;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bajaj-row {
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 100px;
+    gap: 15px;
+   
+}
+
+.bajaj-detail {
+
+    width: 400px;
+    display: flex;
+    border: 2px solid rgb(160, 226, 255);
+    box-shadow: 1px 1px 2px 2px #61a6ff;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.bajaj-image {
+    border-radius: 8px;
+}
+
+.bajaj-row2 {
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 310px;
+    margin-left: 100px;
+    margin-bottom: 300px;
+    gap: 15px;
+   
+}
+
+.bajaj-row3 {
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 310px;
+    margin-left: 300px;
+    gap: 15px;
+    margin-bottom: 300px;
+   
+}
+
+.bajaj-bike-details {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(81, 81, 81);
+    padding: 4px;
+}

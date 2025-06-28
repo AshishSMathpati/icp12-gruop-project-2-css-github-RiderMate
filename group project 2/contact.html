@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Yamaha Motors - Contact Page</title>
+  <style>
+  Body{
+  font-family: Arial, sans-serif;
+      background-color: #f0f2f5;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    header {
+      background-color: #002244;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #004080;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .about, .contact-form, .employees {
+  border: 2px solid #004080;   
+  border-radius: 10px;         
+  padding: 20px;
+  margin: 20px 0;
+  background-color: white;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.styled-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #004080;      
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+}
+
+ .employees {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .employee-card {
+      width: 200px;
+      text-align: center;
+    }
+
+    .employee-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;    
+  border: 3px solid #0077cc;
+  }
+
+  input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #004080;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: #002244;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  
+     
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Yamaha Motor Company</h1>
+    <p>Innovation and Quality in Motion</p>
+  </header>
+
+  <nav>
+    <a href="https://www.yamaha-motor-india.com/" target="_blank">Visit Official Website</a>
+  </nav>
+
+  <div class="container">
+
+    <section class="about">
+      <h2>About Us</h2>
+      <p>Yamaha Motor Company is a world-renowned manufacturer of motorcycles, marine products, and power equipment. 
+        Our mission is to create exceptional value and experiences through high-performance engineering and innovation.</p>
+    </section>
+
+    <section class="employees">
+      <div class="employee-card">
+        <img src="Ashish.jpg" alt="Manager">
+        <h3>Ashish mathpati</h3>
+        <p>ashishsmathpati@gmail.com</p>
+           <p>Sales Manager</p>
+      </div>
+      <div class="employee-card">
+        <img src="nikitha.jpg" alt="Technician">
+        <h3>Nikitha chormale</h3>
+        <p>nikitachormale4242@gmail.com</p>
+        <p>Service Technician</p>
+      </div>
+      <div class="employee-card">
+        <img src="pratiksha.jpg" alt="Support">
+        <h3>pratiksha shinde</h3>
+        <p></p>
+        <p>Customer Support</p>
+      </div>
+      <div class="employee-card">
+        <img src="rohan.jpg"alt="Accounter">
+        <h3>Rohan shitole </h3>
+        <p>rohanshitole11@gmail.com</p
+        <p>Accounter</p>
+      </div>
+      <div class="employee-card">
+        <img src="yamini .jpg"alt="sales executor ">
+        <h3>Yamini Borra</h3>
+        <p>yaminirajeswariborra5@gmail.com</p>
+        <p>sales executor</p>
+      </div>
+    </section>
+
+    <section class="contact-form">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" rows="4" placeholder="Your message..." required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Yamaha Motor Company. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
