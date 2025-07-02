@@ -45,3 +45,23 @@ h1{
     cursor: pointer;
 
 }
+
+.brand-name {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-left: 10px;
+    color: #040406;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: rgb(255, 220, 24);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    box-shadow: 0px 1px 5px 5px grey;
+}
