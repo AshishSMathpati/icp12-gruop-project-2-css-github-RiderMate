@@ -608,6 +608,11 @@ transform: scale(1.02);
 cursor: pointer;
 }
 
+.hero-detail:hover{
+transform: scale(1.02);
+cursor: pointer;
+}
+
 .bike-info{
     display: flex;
     justify-content: center;
