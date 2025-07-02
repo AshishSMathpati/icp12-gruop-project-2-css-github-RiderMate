@@ -332,24 +332,24 @@ h3 {
     display: flex;
     align-items: center;
     flex-direction: row;
-   margin-top: 300px;
+    margin-top: 300px;
     margin-bottom: 350px;
 }
 
-    footer {
+footer {
     height: 30px;
-      background-color: #111;
-      color: white;
-      display: flex;
-      text-align: center;
-      padding-bottom: 10px;
-      margin-top: 5px;
-      align-items: center;
-      justify-content: center;
-      padding-top: 15px;
-    }
+    background-color: #111;
+    color: white;
+    display: flex;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
 
-    .honda-navbar {
+.honda-navbar {
     height: 70px;
     width: auto;
     background-color: rgb(255, 220, 24);
@@ -383,7 +383,7 @@ h3 {
 
 .honda-button:hover {
 
-    
+
     transform: scale(1.15);
 
 
@@ -399,7 +399,7 @@ h3 {
     margin-top: 100px;
     margin-left: 100px;
     gap: 15px;
-   
+
 }
 
 .honda-detail {
@@ -438,7 +438,7 @@ h3 {
     margin-top: 310px;
     margin-left: 100px;
     gap: 15px;
-   
+
 }
 
 .honda-row3 {
@@ -452,7 +452,7 @@ h3 {
     margin-left: 300px;
     gap: 15px;
     margin-bottom: 300px;
-   
+
 }
 
 .bajaj-navbar {
@@ -505,7 +505,7 @@ h3 {
     margin-top: 100px;
     margin-left: 100px;
     gap: 15px;
-   
+
 }
 
 .bajaj-detail {
@@ -535,7 +535,7 @@ h3 {
     margin-left: 100px;
     margin-bottom: 300px;
     gap: 15px;
-   
+
 }
 
 .bajaj-row3 {
@@ -549,7 +549,7 @@ h3 {
     margin-left: 300px;
     gap: 15px;
     margin-bottom: 300px;
-   
+
 }
 
 .bajaj-bike-details {
@@ -561,6 +561,7 @@ h3 {
     color: rgb(81, 81, 81);
     padding: 4px;
 }
+
 .tvs-navbar {
     height: 70px;
     width: auto;
@@ -598,30 +599,30 @@ h3 {
     margin-left: 20px;
 }
 
-.ry-detail:hover{
-transform: scale(1.05);
-cursor: pointer;
+.ry-detail:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
-.yamaha-detail:hover{
-transform: scale(1.02);
-cursor: pointer;
+.yamaha-detail:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
-.hero-detail:hover{
-transform: scale(1.02);
-cursor: pointer;
+.hero-detail:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
-.bike-info{
+.bike-info {
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
     padding-top: 40px;
 }
 
-.bike-info-text{
-    
+.bike-info-text {
+
     display: flex;
     justify-content: center;
     font-size: 20px;
@@ -629,10 +630,10 @@ cursor: pointer;
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 60px;
-    
+
 }
 
-.bike-info-img{
+.bike-info-img {
     border-radius: 15px;
-   box-shadow: 2px 2px 15px 15px #989898;
+    box-shadow: 2px 2px 15px 15px #989898;
 }
