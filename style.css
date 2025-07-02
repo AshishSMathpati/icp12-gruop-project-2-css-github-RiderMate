@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(112, 255, 181);
+    background-color: rgb(255, 220, 24);
     height: 70px;
     width: 100%;
     display: flex;
@@ -38,10 +38,10 @@ body {
 }
 
 .brand-name {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bolder;
     margin-left: 10px;
-    color: #4d4dff;
+    color: #040406;
     cursor: pointer;
 }
 
@@ -157,14 +157,7 @@ h3 {
     gap: 300px;
 }
 
-.ry-detail {
-    width: 400px;
-    display: flex;
-    border: 1px solid grey;
-    box-shadow: 1px 1px 2px 2px grey;
-    flex-direction: column;
-    border-radius: 10px;
-}
+
 
 .ry-row2 {
     width: 355px;
@@ -203,7 +196,7 @@ h3 {
 }
 
 .ry-navbar {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 220, 24);
     height: 70px;
     width: 100%;
     align-items: center;
@@ -217,7 +210,7 @@ h3 {
     font-size: 35px;
     font-weight: bolder;
     margin-left: 10px;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -229,7 +222,7 @@ h3 {
     align-items: end;
     cursor: pointer;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
 }
 
 .ry-button:hover {
@@ -250,7 +243,7 @@ h3 {
 .hero-navbar {
     height: 70px;
     width: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 220, 24);
     display: flex;
     align-items: center;
     display: flex;
@@ -264,14 +257,14 @@ h3 {
     font-size: 35px;
     font-weight: bolder;
     margin-left: 10px;
-    color: #eb1400;
+    color: #000000;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
 }
 
 .hero-button {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -301,8 +294,8 @@ h3 {
     margin-left: 150px;
     width: 300px;
     display: flex;
-    border: 1px solid grey;
-    box-shadow: 1px 1px 2px 2px grey;
+    border: 1px solid rgb(83, 26, 26);
+    box-shadow: 1px 1px 2px 2px rgb(158, 51, 51);
     flex-direction: column;
     border-radius: 10px;
 }
@@ -359,7 +352,7 @@ h3 {
     .honda-navbar {
     height: 70px;
     width: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 220, 24);
     display: flex;
     align-items: center;
     display: flex;
@@ -373,14 +366,14 @@ h3 {
     font-size: 35px;
     font-weight: bolder;
     margin-left: 10px;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
 }
 
 .honda-button {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -390,7 +383,7 @@ h3 {
 
 .honda-button:hover {
 
-    text-decoration: underline;
+    
     transform: scale(1.15);
 
 
@@ -465,7 +458,7 @@ h3 {
 .bajaj-navbar {
     height: 70px;
     width: auto;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(255, 220, 24);
     display: flex;
     align-items: center;
     display: flex;
@@ -476,7 +469,7 @@ h3 {
 }
 
 .bajaj-button {
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -496,7 +489,7 @@ h3 {
     font-size: 35px;
     font-weight: bolder;
     margin-left: 10px;
-    color: #ffffff;
+    color: #000000;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -579,4 +572,28 @@ h3 {
     margin: auto;
     box-shadow: 0px 1px 5px 5px grey;
     margin-bottom: 50px;
+}
+
+.yamaha-detail {
+
+    width: 400px;
+    display: flex;
+    border: 2px solid rgb(198, 255, 245);
+    box-shadow: 1px 1px 2px 2px #97fff5;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.ry-detail {
+
+    width: 400px;
+    display: flex;
+    border: 2px solid rgb(255, 103, 103);
+    box-shadow: 1px 1px 2px 2px #ffff76;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 20px;
 }
