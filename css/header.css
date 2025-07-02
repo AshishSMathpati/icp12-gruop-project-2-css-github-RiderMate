@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.navbar {
+    background-color: rgb(185, 239, 248);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    box-shadow: 0px 1px 5px 5px grey;
+}
+
+.navbar-button {
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+
+.navbar-button:hover {
+    color: rgb(0, 55, 255);
+    text-decoration: underline;
+    transform: scale(1.15);
+
+
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+
+}
+
+.brand-name {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+    color: #4d4dff;
+    cursor: pointer;
+}
