@@ -603,6 +603,11 @@ transform: scale(1.05);
 cursor: pointer;
 }
 
+.yamaha-detail:hover{
+transform: scale(1.02);
+cursor: pointer;
+}
+
 .bike-info{
     display: flex;
     justify-content: center;
