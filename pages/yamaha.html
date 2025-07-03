@@ -1,210 +1,271 @@
- <!DOCTYPE html> 
-<html lang="en">
+<!DOCTYPE html>
+<html lang>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Yamaha Motor Company</title>
-  <style>
-    * {
-     margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
 
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-
-    header {
-      background-color: #000;
-      color: white;
-      padding: 20px 30px;
-      display: flex;
-      justify-content:space-between;
-      align-items: center;
-    }
-
-    .logo {
-      font-size: 26px;
-      font-weight: bold;
-      letter-spacing: 2px;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-    }
-
-    nav ul li a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-
-    nav ul li a:hover {
-      color: #00aced;
-    }
-
-    .hero {
-      background: url('https://www.yamaha-motor-india.com/theme/v3/image/home/banner_r15v4.jpg')  center center/cover;
-      padding: 100px 30px;
-      text-align: center;
-      color: rgb(8, 16, 112);
-    }
-   
-    .about, .products {
-      padding: 40px 30px;
-      max-width:1200px;
-      margin: auto;
-    }
-
-    .about h2, .products h2 {
-      text-align: center;
-      font-size: 28px;
-      margin-bottom: 20px;
-    }
-
-    .about p {
-      text-align: center;
-      font-size: 16px;
-      max-width: 800px;
-      margin: auto;
-    }
-
-    .product-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      justify-content: center;
-      margin-top: 30px;
-    }
-
-    .product-card {
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      width: 200px;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .product-card img {
-      width: 100%;
-      height: auto;
-      border-radius: 8px;
-    }
-
-    .product-card h3 {
-      margin-top: 15px;
-      font-size: 20px;
-      color: #111;
-    }
-
-    .product-card p {
-      font-size: 14px;
-      margin-top: 10px;
-      color: #555;
-    }
-
-    footer {
-      background-color: #111;
-      color: white;
-      text-align: center;
-      padding: 20px;
-      margin-top: 50px;
-    }
-  </style>
+    <title>Rider MAte - Yamaha</title>
+    <link rel="stylesheet" href="./../style.css" />
 </head>
+
 <body>
+    <div class="honda-navbar">
 
-  <header>
-    <div class="logo">YAMAHA</div>
-    <nav>
-      <ul>
+        <span class="honda-name">Yamaha Motors</span>
         <a href="./../index.html">
-        <div class="bajaj-button">Home</div>
+            <div class="bajaj-button">Home</div>
         </a>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Bikes</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+        <div class="honda-button">About Us</div>
+        <div class="honda-button">Branches</div>
+        <a href="contact.html">
+            <div class="navbar-button">Contact Us</div>
+        </a>
+    </div><!---->
 
-  <section class="hero">
-    <h1>Welcome to Yamaha Motor Company</h1>
-    <p>Innovation & Performance on Every Road</p>
-  </section>
+    <span class="heading">Welcome To Yamaha</span>
 
-  <section class="about">
-    <h2>About Yamaha</h2>
-   <center> <img src ="./../img.png" class="yamaha-company"</center>
-   <p>
-      Yamaha Motor Company is a leading Japanese manufacturer of motorcycles, marine products, and power equipment.
-      Established in 1955, Yamaha is known for cutting-edge design, advanced technology, and passionate performance.
 
-    </p>
-  </section>
+    <div class="honda-row">
+        <a href="./../bike-info/fzs.html">
+            <div class="yamaha-detail">
+                <div>
+                    <img src="./../img/FZS.png" alt="" height="200px" width="400px" class="honda-image">
+                    <hr>
+                </div>
 
-  <section class="products">
-    <h2>Our Popular Bikes</h2>
-    <div class="product-list">
-      <div class="product-card">
-        <img src="./../group project 2/bike img.png"alt=Yamaha R15 V4">
-        <h1>Yamaha R15 V4</h1>,
-        <p>Engine: 155cc</p>
-        <p>Price: ₹1.80 Lakh</p>
-        <p>Mileage: 45 kmpl</p>
-          </div>
-      <div class="product-card">
-        <img src="./../group project 2/MT 15.png" alt="Yamaha MT-15 V2">
-        <h2>Yamaha MT-15 V2</h2>
-        <p>Engine: 155cc</p>
-        <p>Price: ₹1.68 Lakh</p>
-        <p>Mileage: 48 kmpl</p>
-      </div>
-      <div class="product-card">
-        <img src="./../group project 2/FZS.png" alt="Yamaha FZS-FI V4">
-        <h2>Yamaha FZS-FI V4</h2>
-        <p>Engine: 149cc</p>
-        <p>Price: ₹1.23 Lakh</p>
-        <p>Mileage: 49 kmpl</p>
-      </div>
-  <div class="product-card">
-      <img src="./../group project 2/bike.png"alt="Yamaha FZ v3">
-     <h2>Yamaha FZ V3</h2>
-        <p>Engine: 149cc</p>
-        <p>Price: ₹1.16 Lakh</p>
-        <p>Mileage: 50 kmpl</p>
-      </div>
-      <div class="product-card">
-      <img src="./../group project 2/ray zr.png" alt="Ray ZR">
-        <h2>Yamaha Ray ZR</h2>
-        <p>Engine: 125cc</p>
-        <p>Price: ₹84,000</p>
-        <p>Mileage: 55 kmpl</p>
+                <div>
+                    <span class="bike-name">FZS</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">On Road Price :- ₹ 1,31,283</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Mileage:- 60Km/L</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Capacity Of Fuel Tank :- 13Liters</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="./../bike-info/yamaha-r15.html">
+            <div class="yamaha-detail">
+                <div>
+                    <img src="./../img/bike img.png" alt="" height="200px" width="400px" class="honda-image">
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="bike-name">R15</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">On Road Price :- ₹ 1,85,255</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Mileage:- 51.4Km/L</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Capacity Of Fuel Tank :- 11Liters</span>
+                </div>
+            </div>
+        </a>
+
+        <div class="yamaha-detail">
+            <a href="./../bike-info/fzs.html">
+                <div>
+                    <img src="./../img/bike.png" alt="" height="200px" width="400px" class="honda-image">
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="bike-name">FZ-S</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">On Road Price :- ₹ 1,31,283<span>
+                            <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Mileage:- 60Km/L</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Capacity Of Fuel Tank :- 13Liters</span>
+                </div>
         </div>
-      <div class="product-card">
-      <img src="./../group project 2/fasnico.png" alt="Yamaha Fascino">
-        <h2>Yamaha Fascino 125</h2>
-        <p>Engine: 125cc</p>
-        <p>Price: ₹79,000</p>
-        <p>Mileage: 58 kmpl</p>
-      </div>
-      <div class="product-card">
-      <img src="./../group project 2/R3.png" alt="R3">
-        <h2>Yamaha R3</h2>
-        <p>Engine: 321cc</p>
-        <p>Price: ₹3.50 Lakh</p>
-        <p>Mileage: 26 kmpl</p>
-      </div>
-  </section>
+        </a>
+    </div><!---->
+
+
+    <div class="honda-row2">
+        <a href="./../bike-info/mt07.html">
+            <div class="yamaha-detail">
+                <div>
+                    <img src="./../img/MT 7.png" alt="" height="200px" width="400px" class="honda-image">
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="bike-name">MT 07</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">On Road Price :- ₹ 7,50,00 Coming soon</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Mileage:- 20Km/L</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Capacity Of Fuel Tank :- 14Liters</span>
+                </div>
+            </div>
+
+        </a>
+
+        <a href="./../bike-info/mt09.html">
+            <div class="yamaha-detail">
+                <div>
+                    <img src="./../img/MT09.png" alt="" height="200px" width="400px" class="honda-image">
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="bike-name">MT 09</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">On Road Price :- ₹ 3,50,278</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Mileage:- 35Km/L</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Capacity Of Fuel Tank :- 14Liters</span>
+                </div>
+            </div>
+
+        </a>
+
+        <a href="./../bike-info/r3.html">
+            <div class="yamaha-detail">
+                <div>
+                    <img src="./../img/R3.png" alt="" height="200px" width="400px" class="honda-image">
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="bike-name">R3</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">On Road Price :- ₹ 3,60,278</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Mileage:- 29Km/L</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Capacity Of Fuel Tank :- 14Liters</span>
+                </div>
+            </div>
+        </a>
+
+    </div><!---->
+
+    <div class="honda-row3">
+        <a href="./../bike-info/ray-zr.html">
+            <div class="yamaha-detail">
+                <div>
+                    <img src="./../img/ray zr.png" alt="" height="200px" width="400px" class="honda-image">
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="bike-name">Ray ZR</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">On Road Price :- ₹ 88,396</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Mileage :- 49Km/L</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Maximum Tank Capacity :- 5.2 Liters</span>
+                </div>
+            </div>
+        </a>
+
+        <a href="./../bike-info/fasnico.html">
+            <div class="yamaha-detail">
+                <div>
+                    <img src="./../img/fasnico.png" alt="" height="200px" width="400px" class="honda-image">
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="bike-name">Fansico</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">On Road Price :- ₹ 83,568</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Mileage:- 49Km/L</span>
+                    <hr>
+                </div>
+
+                <div>
+                    <span class="honda-bike-details">Capacity Of Fuel Tank :- 5.2 Liters</span>
+                </div>
+            </div>
+        </a>
+    </div><!---->
+
     <footer>
-    <p>&copy; 2025 Yamaha Motor Company | All rights reserved.</p>
-    <p>Email: support@yamaha.com | Phone: +91-9876-543210</p>
-  </footer>
+        <span>&copy; 2025 Yamaha Motor Company | All rights reserved.</span>
+    </footer>
+
+
+
+
+
 </body>
+
 </html>
