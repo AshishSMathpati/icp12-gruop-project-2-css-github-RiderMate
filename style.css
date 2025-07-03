@@ -89,6 +89,7 @@ h3 {
     margin-top: 100px;
     margin-right: 00px;
     gap: 200px;
+    animation: move 3s 
 }
 
 .menu-row2 {
@@ -100,6 +101,7 @@ h3 {
     margin-top: 250px;
     margin-bottom: 200px;
     gap: 200px;
+    animation: move 3s 
 }
 
 
@@ -388,6 +390,22 @@ footer {
 
 
 }
+
+@keyframes move {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+img {
+  animation: fadeSlideIn 1s ease-out forwards;
+}
+
 
 .honda-row {
     width: 400px;
