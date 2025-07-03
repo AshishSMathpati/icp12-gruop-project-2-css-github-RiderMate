@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    background-color: rgb(185, 239, 248);
+    background-color:rgb(255, 220, 24);
     height: 70px;
     width: 100%;
     display: flex;
@@ -19,13 +19,13 @@ body {
     align-items: center;
     cursor: pointer;
     font-weight: bold;
-
+    text-decoration: none;
 
 }
 
 .navbar-button:hover {
     color: rgb(0, 55, 255);
-    text-decoration: underline;
+    text-decoration: none;
     transform: scale(1.15);
 
 
